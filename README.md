@@ -12,7 +12,7 @@
 ## Общая информация
 
 * Все данные доступны только в формате JSON. В качестве исключения могут быть png и jpeg.
-* Базовый url — `https://DOMAIN.gstu.by/api/vN/`, где N >=1.
+* Базовый url — `https://DOMAIN.by/api/vN/`, где N >=1.
 * <a name="date-format"></a> Даты форматируются в соответствии с [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601): `YYYY-MM-DDThh:mm:ss` или `YYYY-MM-DD hh:mm:ss`.
 
 
@@ -38,8 +38,6 @@
 
 <a name="request_url"></a>
 ## Доступные типы запросов для ресурсов
-
-Список доступных url: [https://cit.gstu.by/projects/esap-admin2/repository/revisions/master/entry/docs/Routes.md](https://cit.gstu.by/projects/esap-admin2/repository/revisions/master/entry/docs/Routes.md).
 
 Для каждого из ресурсов может быть установлен определённый набор запросов. Доступны следующие типы запросов:
 
@@ -79,7 +77,7 @@
 * PATCH - `UPDATE`,
 * DELETE - `DELETE`.
 
-Примеры использования есть в тестах: [https://cit.gstu.by/projects/esap-admin2/repository/revisions/master/show/t](https://cit.gstu.by/projects/esap-admin2/repository/revisions/master/show/t).
+Примеры использования есть в тестах.
 Тесты - это по сути тоже клиент, только консольный.
 
 
